@@ -63,3 +63,8 @@ substitua `http://localhost:5001/superfrete-challange/us-central1/addItem` pela 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"name": "Teste"}' http://localhost:5001/superfrete-challange/us-central1/addItem
 ```
+## Screenshots
+<img width="1074" alt="Pasted Graphic" src="https://github.com/joelsantosjunior/superfrete-challange/assets/8531514/0a380b4d-8ebf-4a75-a119-b02051a89d12">
+<img width="1019" alt="Pasted Graphic 1" src="https://github.com/joelsantosjunior/superfrete-challange/assets/8531514/5f6d5fbc-908c-4583-87c0-a2266b08cbfd">
+
+
