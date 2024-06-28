@@ -7,7 +7,6 @@ const db = admin.firestore()
 
 export const addItemHandler = async (req: Request, res: Response) => {
   try {
-
     const { name } = req.body
 
     if (!name) {
@@ -21,6 +20,8 @@ export const addItemHandler = async (req: Request, res: Response) => {
 
     res.status(201).send(`New Record Created: ${newRecord.id}`)
   } catch (error) {
-    res.status(500).send("Error Creating New Record: " + (error as Error).message)
+    res
+      .status(500)
+      .send("Error Creating New Record: " + (error as Error).message)
   }
 }
