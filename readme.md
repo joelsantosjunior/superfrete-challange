@@ -20,9 +20,10 @@ superfrete-challange/
 
 ## Design de Arquitetura
 Principais Componentes
-- index.ts: Arquivo principal que exporta as funções do Firebase.
-- addItemHandler: Função HTTP que adiciona um novo registro ao Firestore.
-- setIncrementHandler.ts: Trigger que define o increment_id ao criar um novo registro no Firestore.
+- **index.ts**: Arquivo principal que exporta as funções do Firebase.
+- **addItemHandler**: Função HTTP que adiciona um novo registro ao Firestore.
+- **setIncrementHandler.ts**: Trigger que define o increment_id ao criar um novo registro no Firestore.
+- **constants.ts**: Constantes utilizadas no projeto.
 
 ## Princípios de Design
 - Responsabilidade Única: Cada módulo/função tem uma única responsabilidade, facilitando manutenção e testes.
